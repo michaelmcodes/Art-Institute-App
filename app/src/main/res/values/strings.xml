@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Artwork App</string>
+    <string name="search_for">search for…</string>
+    <string name="search">Search</string>
+    <string name="random">Random</string>
+
+    <string name="search_string_too_short">Search string too short</string>
+    <string name="try_longer_search">Please try a longer search string.</string>
+    <string name="no_search_result_found">No search result found</string>
+    <string name="no_result_found_for">No search result found for \'%s\'. Please try another search string.</string>
+    <string name="no_connection">No connection error</string>
+    <string name="no_network">No network connection present - cannot contact Art institute API.</string>
+    <string name="ok">OK</string>
+    <string name="sample_number">1080</string>
+    <string name="not_on_display">Not on Display</string>
+    
+    // copyright
+    <string name="version_1.0">version 1.0</string>
+    <string name="cinel_font_free_for">\'cinzel\' font, free for personal and commercial use:</string>
+    <string name="content_provided_by">content provided by:</string>
+    <string name="copyright_page_top_text">art institute of Chicago api app</string>
+    <string name="copyright_text_without_underline">© 2023, Michael Mark</string>
+    <string name="copyright_text"><u>© 2023, Michael Mark</u></string>
+</resources>

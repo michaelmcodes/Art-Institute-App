@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/listBgColor"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12sp">
+
+        <ImageView
+            android:id="@+id/ivArtwork"
+            android:layout_width="0sp"
+            android:layout_height="80sp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvArtworkTitle"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingHorizontal="10sp"
+            android:text="@string/app_name"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
